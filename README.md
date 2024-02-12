@@ -16,6 +16,14 @@ I chose to implement a checksum based on the program name given by :
 I chose the Alder checksum over basic checksum cause in basic checksum letters order do not change the result.
 Futher more Alder give a 32bits checksum, i use it to bind 2 ports and reduce colisions chances.
 
+To launch the program at least one port should be biding.
+
+# Improvement 
+
+The script could be improved by using a sha256 for generating more ports.
+This will reduce colision between progs and could also remove port binding for most used ports.
+
+
 @tobecontinued
 
 
